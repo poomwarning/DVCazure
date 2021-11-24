@@ -2,4 +2,5 @@
     remote = myremote
 ['remote "myremote"']
     url = azure://gulag.blob.core.windows.net/azuredvc
-    account_name = gulag.blob.core.windows.net
+    account_name = gulag
+    allow_anonymous_login = true
